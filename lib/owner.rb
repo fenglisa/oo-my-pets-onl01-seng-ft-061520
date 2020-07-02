@@ -70,6 +70,6 @@ class Owner
   end
   
   def list_pets
-    puts ""
+    return ""
   end
 end
