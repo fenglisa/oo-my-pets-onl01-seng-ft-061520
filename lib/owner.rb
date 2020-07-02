@@ -70,6 +70,7 @@ class Owner
   end
   
   def list_pets
-    
+    self.dogs.each {|dog| puts}
+    self.cats.each {|cat| cat.mood = "happy"}
   end
 end
