@@ -68,4 +68,6 @@ class Owner
       cat.owner = nil
     }
   end
+  
+  def list_pets
 end
